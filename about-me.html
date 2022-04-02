@@ -1,0 +1,119 @@
+<!docTYPE html>
+<html>
+    
+    <a class="back"  name="top"></a>
+    
+    <div class="v1"></div>
+    <div class="vert"></div>
+    
+    <head>
+        <title>About Raven and Gus Beads</title>
+        <meta name="description" content="Learn about Raven and Gus Beads">
+        <meta charset=utf-8>
+        <meta name=viewport content='width=device-width, initial-scale=1'>
+        <meta name="author" content="Raven Bishop">
+        <link rel="stylesheet" href="abt.css">
+        
+        <h1 id="name">Raven and Gus Beads</h1>
+        
+        <div id="cart">
+            <a href="/Cart/cart.html">
+            <img src="/Cart/%E2%80%AAwhite.png" alt="Shopping cart icon" style="width:40px;height:40px">
+            </a>
+        </div>
+        
+        <!-- Buttons --> 
+        
+        <div class="socials">
+      
+            <a href="https://www.instagram.com/ganymede_my.dude/" target="_blank">
+            <img src="/Main/img/insta logo.png" alt="Instagram page" style="width:45px;height:45px;">
+            </a>
+        
+            <a href="https://www.tiktok.com/@birdybirdy97" target="_blank">
+            <img src="/Main/img/tikttok%20logo.png" alt="TikTok page" style="width:45px;height:45px;">
+            </a>
+            
+        </div>    
+        
+        <!-- Menus -->
+        
+        <div class="menus">
+            <a href="/Main/index.html">
+                <button class="home">Home</button>
+            </a>
+            <a href="/Shop/shop.html">
+                <button class="shop">Shop</button>
+            </a>
+            <a href="/Gallery/gallery.html">
+                <button class="gallery">Gallery</button>
+            </a>
+            <a href="/Request/request.html">
+                <button class="guide">Request Guide</button>
+            </a>
+            <a href="/About/abt.html">
+                <button class="about">About</button>
+            </a>
+            <a href="/Contact/cont.html">
+                <button class="contact">Contact Me!</button>
+            </a>
+        </div>
+        
+    </head>
+    
+    <body>
+        
+        <div class="guts">
+             
+            <h1>A little about us...</h1>
+
+            <h3 id="Nish">Aaniin! Oshki-Manidookwe ndizhnikaaz, nindoodem gaawiin ngii-kendmaasii mishi, gaye noongom Maaji-baawitig Ziibi megwaa ndidaa. Indanishinaabew niizh-manidoo aanawi Chi-Mookmaan Ogimaag gaawiin niwaabamig. Noongom, ninanda-gikenmaan gizhitwaawiminaan.</h3>
+
+            <button id="btn">Press here for translation</button>
+
+            <script>
+
+                var text = document.getElementById("Nish");
+                var btn = document.getElementById("btn");
+                btn.addEventListener("click", function() {
+                    if(btn.innerHTML === "Press here for translation") {
+                        text.innerHTML = "Hello! My name is Rose, I don't yet know my clan, and I currently live at the Headwaters of the Grand River. I'm a non-Status Two-Spirit Anishinaabe and am in the process of reclaiming our culture.";
+                        btn.innerHTML = "Gibadoon bakite'ans gidagindaas Nishinaabemowin o'ow";
+                    } else {
+                        text.innerHTML = "Aaniin! Rose ndizhnikaaz, nindoodem gaawiin ngii-kendmaasii mishi, gaye noongom Maaji-baawitig Ziibi megwaa ndidaa. Indanishinaabew niizh-manidoo aanawi Chi-Mookmaan Ogimaag gaawiin niwaabamig. Noongom, ninanda-gikenmaan gizhitwaawiminaan.";
+                        btn.innerHTML = "Press here for translation";
+                    }
+                });
+
+            </script>
+            <div class="sep">
+                <h1 id="intro">Why the name "Raven and Gus"?</h1>
+                <p id="ex">Despite this being a one-person operation, I called my business "Raven and Gus" after my cat, Gus, who means the world to me. I found him on the side of the road when he was about 4 weeks old, starving, absolutely infested with ear-mites and lice, and pretty sick. I myself wasn't doing so hot, and I consider him a gift from the spirits because I needed him at that time just as much as he needed me. My small beautiful boy is now 4 years old and has more energy than our younger cats :) </p>
+
+                <div class="pics">
+
+                    <img id="G1" src="/About/img/gus_sock (2).jpg" alt="Gus in my dad's cut sock after we had shaved and bathed him as a 4-week-old kitten." style="width:15.4%;height:15.4%;">
+                    <img id="G2" src="/About/img/gus_couch.jpg" alt="Gus sleeping in the crook of the couch at about 6 months old." style="width:15%;height:15%;">
+                    <img id="G3" src="/About/img/gus_clover.jpg" alt="Gus was found sleeping in a barrel-style pot with loads of clover growing in it when he was almost 4 years old." style="width:15%;height:15%;">
+                    <img id="G4" src="/About/img/gus_me.jpg" alt="Gus and me about a weekk after moving into the university dorm. He had a student card and everything!" style="width:15%;height:15%;">
+                    <img id="G5" src="/About/img/gus_tongue.jpg" alt="Gus caught mid-lick in the flash of my camera." style="width:15%;height:15%;">
+
+                </div>
+
+                <p id="end">He's a very smart, kind, gentle, playful, thoughtful prankster and I genuinely don't know what I'd do without him. His picture is in the dictionary under the term "Good Boy", no need to email Merriam-Webster as this is the correct definition.</p>
+
+                <h3 id="ship">We are currently stationed on Cape Breton Island until the spring, so this is where it will be shipping from! I will post an update on Instagram when/if our housing situation changes and if it does, we'll be back in Ontario (central or southern). Apologies for any shipping inconvenience in advance!</h3>
+
+            </div>
+            
+        </div>
+        
+    </body>
+    
+    <footer>
+        <a class="back" href="#top">
+            <button class="back" type="button">Back to Top</button>
+        </a>
+    </footer>
+    
+</html>
