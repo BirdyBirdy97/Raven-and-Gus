@@ -1,0 +1,258 @@
+/* Setup for basic consistant page design */
+
+.v1 {
+    background-color: #91783d;
+    position: absolute;
+    right: 87%;
+    height: 1700px;
+    width: 5px;
+}
+
+.vert {
+    background-color: #91783d;
+    position: absolute;
+    left: 87%;
+    height: 1700px;
+    width: 5px;
+}
+
+@font-face {
+    font-family: 'Architext';
+    src: url("/Fonts/architext/Architex.ttf");
+}
+
+#name {
+    font-family: 'Architext';
+    font-variant: small-caps;
+    font-size: 55px;
+    letter-spacing: 12px;
+    color: #e6a817;
+    text-shadow: 3px 3px #f2cb74;
+    text-shadow: -2px -2px black;
+    padding-left: 120px;
+    padding-top: 31px;
+    padding-bottom: 68px;
+    margin-right: 250px;
+    
+    background-image: url("/Main/img/D7K_0905_new%20(2).png");
+    background-position: center;
+    background-size: 1500px 190px;
+}
+
+body {
+    background-color: #d8e3b3;
+    padding-left: 250px;
+}
+
+.socials {
+    position: absolute;
+    left: 69%;
+    top: 110px;
+}
+
+#cart {
+    position: absolute;
+    left: 460px;
+    top: 155px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+#cart:hover {
+    background-color: #e6a817;
+}
+
+/* Menu Buttons */
+
+.menus {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.home {
+    font-family: 'Architext';
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 140px;
+    
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    float: left;
+}
+
+.home:hover {
+    background-color: #e6a817;
+}
+
+.shop {
+    font-family: 'Architext';
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 140px;
+    
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    float: left;
+}
+
+.shop:hover {
+    background-color: #e6a817;
+}
+
+.gallery {
+    font-family: 'Architext';
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 140px;
+    
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    float: left;
+}
+
+.gallery:hover {
+    background-color: #e6a817;
+}
+
+.guide {
+    font-family: 'Architext';
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 180px;
+    
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    float: left;
+}
+
+.guide:hover {
+    background-color: #e6a817;
+}
+
+.about {
+    font-family: 'Architext';
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 140px;
+    
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    float: left;
+}
+
+.about:hover {
+    background-color: #e6a817;
+}
+
+.contact {
+    font-family: 'Architext';
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    width: 160px;
+    
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    float: left;
+}
+
+.contact:hover {
+    background-color: #e6a817;
+}
+
+.your-cart {
+    position: absolute;
+    top: 200px;
+    
+}
+
+.back {
+    margin-top: 40px;
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-family: 'Architext';
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    background-color: #ede9df;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 120px;
+}
+
+.back:hover { 
+    background-color: #e6a817;
+}
+
+
+
+
+
+/* Unique to this page */
+/* Take pics of bead boxes, edit co-ordinate system on them, and put them side by each under the "Pattern" heading with the same glow as what's used on About
+    Eeeeeeeverything needs to be spaced better. It's all on top of each other! */
+
+.guts {
+    margin-top: 60px;
+    margin-right: 250px;
+}
+
+p {
+    font-size: 20px;
+    text-shadow: 0.2px 0.2px;
+    padding-top: 10px;
+}
+
+h1 {
+    padding-left: 120px;
+    font-family: 'Architext';
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px #e6a817;
+}
+
+h2 {
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+#warn {
+    font-size: 24px;
+    text-align: center;
+    color: #cf1500;
+    text-shadow: 1px 1px #e6a817;
+    padding-top: 10px;
+}
+
+.class {
+    padding-left: 120px;
+    font-family: 'Architext';
+    font-size: 40px;
+    text-shadow: 1.5px 1.5px #e6a817;
+    margin-bottom: -5px;
+    letter-spacing: 3px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+#picky {
+    text-align: center;
+    padding-bottom: 7px;
+}
