@@ -1,0 +1,120 @@
+<!docTYPE html>
+<html>
+    
+    <div class="v1"></div>
+    <div class="vert"></div>
+    
+    <head>
+        <title>Contact Raven and Gus Beads</title>
+        <meta name="description" content="Website to contact Raven and Gus Beads">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta name="author" content="Raven Bishop">
+        <link rel="stylesheet" href="cont.css">
+        <link rel="js" href="/Contact/cont.js">
+        
+        <h1 id="name">Raven and Gus Beads</h1>
+        
+        <div id="cart">
+            <a href="/Cart/cart.html">
+            <img src="/Cart/%E2%80%AAwhite.png" alt="Shopping cart icon" style="width:40px;height:40px">
+            </a>
+        </div>
+        
+        <!-- Buttons --> 
+        
+        <div class="socials">
+      
+            <a href="https://www.instagram.com/ganymede_my.dude/" target="_blank">
+            <img src="/Main/img/insta logo.png" alt="Instagram page" style="width:45px;height:45px;">
+            </a>
+        
+            <a href="https://www.tiktok.com/@birdybirdy97" target="_blank">
+            <img src="/Main/img/tikttok%20logo.png" alt="TikTok page" style="width:45px;height:45px;">
+            </a>
+            
+        </div>    
+        
+        <!-- Menus -->
+        
+        <div class="menus">
+            <a href="/Main/index.html">
+                <button class="home">Home</button>
+            </a>
+            <a href="/Shop/shop.html">
+                <button class="shop">Shop</button>
+            </a>
+            <a href="/Gallery/gallery.html">
+                <button class="gallery">Gallery</button>
+            </a>
+            <a href="/Request/request.html">
+                <button class="guide">Request Guide</button>
+            </a>
+            <a href="/About/abt.html">
+                <button class="about">About</button>
+            </a>
+            <a href="/Contact/cont.html">
+                <button class="contact">Contact Me!</button>
+            </a>
+        </div>
+        
+    </head>
+
+    <body>
+        
+        <h1>Looking to get in touch?</h1>
+        
+        <ul>For questions, comments, requests, or anything else, please contact me at:
+            <li><a href="https://www.instagram.com/ganymede_my.dude/">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@birdybirdy97">TikTok</a></li>
+            <li><a href="mailto:rosie.bishop52@gmail.com" target="_blank">Email</a></li>
+        </ul>
+        
+        <h3>I'm currently still working out the kinks in the form below so if it sends your message without your entered email or it won't send your message, please contact me another way and I'll do my best to get it up and running. Thank you for your patience and kindess :) </h3>
+        
+        <div class="form">
+        
+            <form action="mailto:rosie.bishop52@gmail.com" method="post" enctype="text/plain">
+            
+                Your Name: <br><input type="text" name="your_name"> <br>
+                Your Email: <br><input id="email" type="email" name="your_email"> <br>
+                Subject: <br><input type="text" name="subject"> <br>
+                Your Message: <br>
+                    <textarea name="message" placeholder="Please write your message here:"></textarea> <br>
+                
+                <input type="file" name="fileupload" accept=".gif, .jpeg, .jpg, .png, .doc, .docx, .heic, .bmp" multiple><br>
+                
+                <div class="buttons">
+                    <input id="submit" type="submit" name="submit">
+                    <input id="reset" type="reset" name="reset">
+                </div>
+                
+                <script>
+                
+                    var submit=document.getElementById("submit");
+                    var email=document.getElementById("email");
+                    
+                    if(email === 'undefined') {
+                        submit.onclick = TypeError;
+                        
+                    } else {
+                        submit.onclick = true;
+                    }
+                    
+                </script>
+                
+            </form>
+        
+        </div>
+        
+        
+    </body>
+    
+    <footer>
+        <a class="back" href="#top">
+            <button class="back" type="button">Back to Top</button>
+        </a>
+    </footer>
+
+
+</html>
