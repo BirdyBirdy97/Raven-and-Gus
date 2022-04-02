@@ -8,4 +8,6 @@ Raven and Gus Beads is my first full-fledged website and is included in my portf
 
 I'm always updating this website, either with new work or more features that I've learned, making this website a pretty good indicator of what I'm capable of with CSS and HTML5. 
 
+The main page looks a little blank, but all of my code is in the other branches to keep it clean and organized.
+
 Miigwetch/Thank you for your interest in Raven and Gus Beads and/or my coding ability!
